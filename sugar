@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>SUGAR Cosmetics</h1>
+</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Help</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      </form>
+    </div>
+  </div>
+</nav>
+         
+          
+        
+          
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+  
+  
+  
+    <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+ <!-- The slideshow/carousel -->
+ <div class="carousel-inner">
+  <div class="carousel-item active">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfYI3cG56Thg698LVftT-VDS0drWPLaNK-3Uco-FfNeIkPTRMgk537pxsgO97RZ_dV700&usqp=CAU" width="100%" height="500px">
+    <div class="carousel-caption">
+      <h3>Los Angeles</h3>
+      <p>We had such a great time in LA!</p>
+    </div>
+  </div>
+  <div class="carousel-item">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLICMUDu_TIEPC1g_kq03C6eM4Qxdb8PaX1g&usqp=CAU" width="100%" height="500px">
+    <div class="carousel-caption">
+      <h3>Chicago</h3>
+      <p>Thank you, Chicago!</p>
+    </div> 
+  </div>
+  <div class="carousel-item">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRRWcxLZQpOXb0N9SQ93vXFpGi2Pgvzxx0KQ&usqp=CAU" width="100%" height="500px">
+    <div class="carousel-caption">
+      <h3>New York</h3>
+      <p>We love the Big Apple!</p>
+    </div>  
+  </div>
+</div>
+
+
+  
+  <div class="container-fluid mt-3">
+  </div>
+  <div class="container mt-3">
+    <h2>BESTSELLERS</h2>            
+  </div>
+  <div>
+    <button class="tablink" onclick="openPage('LIPSTICK', this, 'red')">LIPSTICK</button>
+<button class="tablink" onclick="openPage('FOUNDATION', this, 'green')" id="defaultOpen">FOUNDATION</button>
+<button class="tablink" onclick="openPage('KAJAL', this, 'blue')">KAJAL</button>
+<button class="tablink" onclick="openPage('BAG', this, 'orange')">BAG</button>
+
+<div id="LIPSTICK" class="tabcontent">
+  <h3>LIPSTICK</h3>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtmhz4fHyRXuLB8EIr8pq7gNOmNNFcqhtH6Q&usqp=CAU" width="200px" height="200px">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqwH6f-rIBcnMXZQp4bu9dWgSj6vvn5PzpcA&usqp=CAU" width="200px" height="200px">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQIl_cpl2ikgH0RmWJS6iD2fv3bI9OLWQ4yw&usqp=CAU" width="200px" height="200px">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwMaZVpcE1LXC-g0NaVmXEVP1L1Wr1U9JxEg&usqp=CAU" width="200px" height="200px">
+  
+</div>
+
+<div id="FOUNDATION" class="tabcontent">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA0N0rg1pQ8NycerV-j3wJYaW9hCfSzOgqVg&usqp=CAU" width="200px" height="200px">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPSGVocf5NtrefOPVhANAQoqMvsa6JpFSTnQ&usqp=CAU" width="200px" height="200px">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK8d_dTrk1uGN__W6Oh809kI_4XhjPOIRGViI-1jQR8YG-jzUM_7WmdqxPss_ve-Qp8Kg&usqp=CAU" width="200px" height="200px">
+<img src="data:image/jpeg;base64,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" width="200px" height="200px">  
+</div>
+
+<div id="KAJAL" class="tabcontent">
+  <img src="https://cdn.shopify.com/s/files/1/0906/2558/products/1_e4b6c948-178e-4bfe-a3b3-926119dea615.jpg?v=1649865681" width="200px" height="200px">
+  <img src="https://cdn.shopify.com/s/files/1/0906/2558/products/01_79189b6b-9a44-4b2a-8940-e9a06731982e.jpg?v=1639496562" width="200px" height="200px">
+  <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2Fsugar-cosmetics-twist-and-shout-fadeproof-kajal-01-black-velvet-black-12771571433555_7f6a68fc-aa43-4788-a234-e2c1febc622a.jpg%3Fv%3D1632208581&w=384&q=75"width="200px" height="200px">
+  <img src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0906%2F2558%2Fproducts%2F1_b659ec87-4f20-4ee0-a315-6ea961e72cb7.jpg%3Fv%3D1639582914&w=384&q=75" width="200px" height="200px">
+
+</div>
+
+<div id="BAG" class="tabcontent">
+  <img src="https://cdn.shopify.com/s/files/1/0906/2558/products/Laptop-Bag-WBG-1-Teal.jpg?v=1675182059" width="200px" height="200px">
+  <img src="https://m.media-amazon.com/images/I/61-L49bCmhL.AC_SS260.jpg" width="200px" height="200px">
+  <img src="https://m.media-amazon.com/images/I/51l-ee-NHKL.AC_UF480,480_SR480,480.jpg" width="200px" height="200px">
+  <img src="https://m.media-amazon.com/images/I/41B1TGLULdL.SX679.jpg" width="200px" height="200px">
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+
+  </div> 
+  
+
+  
+
+
+</body>
+</html>
